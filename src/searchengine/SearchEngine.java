@@ -268,7 +268,8 @@ public class SearchEngine {
     public static void main(String[] args) throws IOException {
         // TODO code application logic here
         SearchEngine se = new SearchEngine();
-        String path = "/Users/sean/Desktop/Stevens/600_Algorithm/project/SearchEngine/src/searchengine/article/";
+        // you should change this path for your own computer
+        String path = "/Users/sean/Desktop/Stevens/600_Algorithm/project/Search-Engine/src/searchengine/article/";
         System.out.println("WELCOME TO SEAN'S SEARCHING ENGINE VERSION 1.0\n");
         System.out.println("Loading articles ...");
         List<String[]> articles = se.readArticlesFromDirectory(path);

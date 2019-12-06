@@ -1,0 +1,165 @@
+run:
+WELCOME TO SEAN'S SEARCHING ENGINE VERSION 1.0
+
+Loading articles ...
+Loading completed!
+
+Please enter a string (0 to stop):
+air
+
+*************************************************************************************************
+air has appeared:
+1 times in "Guernsey Airport runway extension to be investigated - BBC News"
+4 times in "East Midlands Airport: Fog led to taxiing plane hitting parked aircraft - BBC News"
+-------------------------------------------------------------------------------------------------
+Test total times of all the words in input appeared in article:
+1: "Guernsey Airport runway extension to be investigated - BBC News"
+4: "East Midlands Airport: Fog led to taxiing plane hitting parked aircraft - BBC News"
+-------------------------------------------------------------------------------------------------
+The most relative article is:
+"East Midlands Airport: Fog led to taxiing plane hitting parked aircraft - BBC News"
+*************************************************************************************************
+
+Please enter a string (0 to stop):
+airport
+
+*************************************************************************************************
+airport has appeared:
+2 times in "Guernsey Airport runway extension to be investigated - BBC News"
+6 times in "Bristol Airport expansion plans decision delayed - BBC News"
+7 times in "East Midlands Airport: Fog led to taxiing plane hitting parked aircraft - BBC News"
+3 times in "Passenger on wrong EasyJet flight causes Liverpool Airport security scare - BBC News"
+9 times in "Prestwick Airport 'options considered' as sale deadline passes - BBC News"
+-------------------------------------------------------------------------------------------------
+Test total times of all the words in input appeared in article:
+2: "Guernsey Airport runway extension to be investigated - BBC News"
+6: "Bristol Airport expansion plans decision delayed - BBC News"
+7: "East Midlands Airport: Fog led to taxiing plane hitting parked aircraft - BBC News"
+3: "Passenger on wrong EasyJet flight causes Liverpool Airport security scare - BBC News"
+9: "Prestwick Airport 'options considered' as sale deadline passes - BBC News"
+-------------------------------------------------------------------------------------------------
+The most relative article is:
+"Prestwick Airport 'options considered' as sale deadline passes - BBC News"
+*************************************************************************************************
+
+Please enter a string (0 to stop):
+air airport
+
+*************************************************************************************************
+air has appeared:
+1 times in "Guernsey Airport runway extension to be investigated - BBC News"
+4 times in "East Midlands Airport: Fog led to taxiing plane hitting parked aircraft - BBC News"
+-------------------------------------------------------------------------------------------------
+airport has appeared:
+2 times in "Guernsey Airport runway extension to be investigated - BBC News"
+6 times in "Bristol Airport expansion plans decision delayed - BBC News"
+7 times in "East Midlands Airport: Fog led to taxiing plane hitting parked aircraft - BBC News"
+3 times in "Passenger on wrong EasyJet flight causes Liverpool Airport security scare - BBC News"
+9 times in "Prestwick Airport 'options considered' as sale deadline passes - BBC News"
+-------------------------------------------------------------------------------------------------
+Test total times of all the words in input appeared in article:
+3: "Guernsey Airport runway extension to be investigated - BBC News"
+11: "East Midlands Airport: Fog led to taxiing plane hitting parked aircraft - BBC News"
+6: "Bristol Airport expansion plans decision delayed - BBC News"
+3: "Passenger on wrong EasyJet flight causes Liverpool Airport security scare - BBC News"
+9: "Prestwick Airport 'options considered' as sale deadline passes - BBC News"
+-------------------------------------------------------------------------------------------------
+The most relative article is:
+"East Midlands Airport: Fog led to taxiing plane hitting parked aircraft - BBC News"
+*************************************************************************************************
+
+Please enter a string (0 to stop):
+wee
+
+*************************************************************************************************
+wee is not in any articles.
+-------------------------------------------------------------------------------------------------
+Did't find any article related to all the words you type!
+*************************************************************************************************
+
+Please enter a string (0 to stop):
+wee air
+
+*************************************************************************************************
+wee is not in any articles.
+-------------------------------------------------------------------------------------------------
+air has appeared:
+1 times in "Guernsey Airport runway extension to be investigated - BBC News"
+4 times in "East Midlands Airport: Fog led to taxiing plane hitting parked aircraft - BBC News"
+-------------------------------------------------------------------------------------------------
+Test total times of all the words in input appeared in article:
+1: "Guernsey Airport runway extension to be investigated - BBC News"
+4: "East Midlands Airport: Fog led to taxiing plane hitting parked aircraft - BBC News"
+-------------------------------------------------------------------------------------------------
+The most relative article is:
+"East Midlands Airport: Fog led to taxiing plane hitting parked aircraft - BBC News"
+*************************************************************************************************
+
+Please enter a string (0 to stop):
+air    +airport
+
+*************************************************************************************************
+air has appeared:
+1 times in "Guernsey Airport runway extension to be investigated - BBC News"
+4 times in "East Midlands Airport: Fog led to taxiing plane hitting parked aircraft - BBC News"
+-------------------------------------------------------------------------------------------------
+airport has appeared:
+2 times in "Guernsey Airport runway extension to be investigated - BBC News"
+6 times in "Bristol Airport expansion plans decision delayed - BBC News"
+7 times in "East Midlands Airport: Fog led to taxiing plane hitting parked aircraft - BBC News"
+3 times in "Passenger on wrong EasyJet flight causes Liverpool Airport security scare - BBC News"
+9 times in "Prestwick Airport 'options considered' as sale deadline passes - BBC News"
+-------------------------------------------------------------------------------------------------
+Test total times of all the words in input appeared in article:
+3: "Guernsey Airport runway extension to be investigated - BBC News"
+11: "East Midlands Airport: Fog led to taxiing plane hitting parked aircraft - BBC News"
+6: "Bristol Airport expansion plans decision delayed - BBC News"
+3: "Passenger on wrong EasyJet flight causes Liverpool Airport security scare - BBC News"
+9: "Prestwick Airport 'options considered' as sale deadline passes - BBC News"
+-------------------------------------------------------------------------------------------------
+The most relative article is:
+"East Midlands Airport: Fog led to taxiing plane hitting parked aircraft - BBC News"
+*************************************************************************************************
+
+Please enter a string (0 to stop):
++231 82_
+
+*************************************************************************************************
+Your input is not invalid!
+*************************************************************************************************
+
+Please enter a string (0 to stop):
+ 
+
+*************************************************************************************************
+Your input is not invalid!
+*************************************************************************************************
+
+Please enter a string (0 to stop):
+
+
+*************************************************************************************************
+Your input is not invalid!
+*************************************************************************************************
+
+Please enter a string (0 to stop):
+wewq
+
+*************************************************************************************************
+wewq is not in any articles.
+-------------------------------------------------------------------------------------------------
+Did't find any article related to all the words you type!
+*************************************************************************************************
+
+Please enter a string (0 to stop):
+
+
+*************************************************************************************************
+Your input is not invalid!
+*************************************************************************************************
+
+Please enter a string (0 to stop):
+0
+
+Thanks for using, bye!
+BUILD SUCCESSFUL (total time: 5 minutes 17 seconds)

@@ -50,7 +50,7 @@ public class GetWebText {
     
     public static void main(String[] args) throws IOException {
         GetWebText rwt = new GetWebText();
-        String path = "/Users/sean/Desktop/Stevens/600_Algorithm/project/SearchEngine/src/searchengine/";
+        String path = "/Users/sean/Desktop/Stevens/600_Algorithm/project/Search-Engine/src/searchengine/";
         String filePath = path + "input.txt";
         List<String> URLs = rwt.readURL(filePath);
         for(String URL : URLs) {
