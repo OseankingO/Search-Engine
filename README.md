@@ -1,12 +1,16 @@
 # Search-Engine
 
-
-
 ## Introduction
 
 This program is CS600 final project written by _**Xinghan Qin**_.
 
 This Search Engine is designed for user to first, grab title and main articles from the website. Then but all the artcles into the Trie. And last, use search engine to search the most relative articles with user's input.
+
+##
+
+## Tools
+
+Java, Jsoup
 
 ##
 
@@ -62,15 +66,27 @@ When searching the input, first use split(), separate all the words. Search word
 
 ## Demo
 
-The txt version of output is here:
+The txt version of input example:
+
+https://github.com/OseankingO/Search-Engine/blob/master/src/searchengine/input.txt
+
+The example output of **GetWebText.java**:
+
+https://github.com/OseankingO/Search-Engine/tree/master/src/searchengine/article
+
+The testing and example output of **SearchEngine.java**:
 
 https://github.com/OseankingO/Search-Engine/blob/master/src/searchengine/Output.txt
 
-
-
-The video version of demo is here: 
+The video of demo: 
 
 https://youtu.be/M_TN_GoKRcQ
+
+##
+
+## Testing
+
+The the boundary conditions testing is included in txt version of output and video demo
 
 ##
 
