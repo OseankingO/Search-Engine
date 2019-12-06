@@ -359,7 +359,7 @@ public class SearchEngine {
                 }
             } 
             // show which article are most relative to the input
-            // rand base total times of all the words in input appeared in this article. 
+            // rand based on total times of all the words in input appeared in this article. 
             // if more than one articles have same appeared times and the number is biggest, I will show all of them
             if(! times.isEmpty()) {
                 List<Integer> maxTimeArticle = new ArrayList<>();
