@@ -20,9 +20,9 @@ There are three main parts:
 
 * Put all the URL into the **input.txt**. (Recommend BBC news, or during the second step, code needs to be changed.)
 
-* Run **GetWebText.java**. (If you used other website, make sure **doc.select("div.story-body__inner > p")** match the website design. Or you need to change the code.) You will get all the articles from your website with the file name is tiltle, and body is tiltle and article.
+* Run **GetWebText.java**. (1. Change the path 2. If you used other website, make sure **doc.select("div.story-body__inner > p")** match the website design. Or you need to change the code.) You will get all the articles from your website with the file name is tiltle, and body is tiltle and article.
 
-* Run **SearchEngine.java**. Type a string, then it will show:
+* Run **SearchEngine.java**. (Change the path) Type a string, then it will show:
 
   * If it is 0, then stop running.
 
