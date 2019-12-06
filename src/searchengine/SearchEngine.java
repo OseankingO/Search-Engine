@@ -269,12 +269,15 @@ public class SearchEngine {
         // TODO code application logic here
         SearchEngine se = new SearchEngine();
         String path = "/Users/sean/Desktop/Stevens/600_Algorithm/project/SearchEngine/src/searchengine/article/";
+        System.out.println("WELCOME TO SEAN'S SEARCHING ENGINE VERSION 1.0\n");
+        System.out.println("Loading articles ...");
         List<String[]> articles = se.readArticlesFromDirectory(path);
         Trie trie = se.createTrie(articles);
         trie.rebuild();
+        System.out.println("Loading completed!\n");
         Map<Integer, String> map = trie.getMap();
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a string (0 to stop):"); 
+        System.out.println("Please enter a string (0 to stop):"); 
         String input = sc.nextLine(); 
         // input your words and it will show how many times the words show in the articles
         // type 0 to stop
@@ -305,7 +308,7 @@ public class SearchEngine {
                     if(tmp == null) {
                         String output = inputWord + " is not in any articles.";
                         System.out.println(output);
-                        System.out.println("*************************************************************************************************");
+                        System.out.println("-------------------------------------------------------------------------------------------------");
                         continue;
                     }
                     // store in an arraylist to compare the most relative article
@@ -351,7 +354,7 @@ public class SearchEngine {
                             System.out.println(out);
                         }
                     }
-                    System.out.println("*************************************************************************************************");
+                    System.out.println("-------------------------------------------------------------------------------------------------");
                 }
             } 
             // show which article are most relative to the input
@@ -371,7 +374,7 @@ public class SearchEngine {
                         maxTimeArticle.add(arr[0]);
                     }
                 }
-                System.out.println("*************************************************************************************************");
+                System.out.println("-------------------------------------------------------------------------------------------------");
                 if(maxTimeArticle.size() == 1) {
                     System.out.println("The most relative article is:");
                 } else {
@@ -394,11 +397,11 @@ public class SearchEngine {
                 System.out.println("*************************************************************************************************");
             }
             System.out.println(); 
-            System.out.println("Enter a string (0 to stop):"); 
+            System.out.println("Please enter a string (0 to stop):"); 
             sc = new Scanner(System.in);
             input = sc.nextLine();  
         }
-        
+    System.out.println("\nThanks for using, bye!");    
     }
     
 }

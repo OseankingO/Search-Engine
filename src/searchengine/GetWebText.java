@@ -51,13 +51,10 @@ public class GetWebText {
     public static void main(String[] args) throws IOException {
         GetWebText rwt = new GetWebText();
         String path = "/Users/sean/Desktop/Stevens/600_Algorithm/project/SearchEngine/src/searchengine/";
-        String filePath = path + "resource.txt";
+        String filePath = path + "input.txt";
         List<String> URLs = rwt.readURL(filePath);
         for(String URL : URLs) {
             rwt.writeWebBody(URL, path);
         }
-//        Map<Integer, Integer> a = new HashMap<>();
-//        a.put(1, 2);
-//        System.out.print(a.get(2) == null);
     }
 }
