@@ -4,7 +4,7 @@
 
 This program is CS600 final project written by _**Xinghan Qin**_.
 
-This Search Engine is designed for user to first, grab title and main articles from the website. Then but all the artcles into the Trie. And last, use search engine to search the most relative articles with user's input.
+This Search Engine is designed for user to firstly grab title and main articles from the website. Then put all the artcles into the Trie. And last, use search engine to search the most relative articles with user's input.
 
 ##
 
