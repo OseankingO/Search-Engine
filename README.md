@@ -4,7 +4,7 @@
 
 This program is CS600 final project written by _**Xinghan Qin**_.
 
-This Search Engine is designed for user to firstly grab title and main articles from the website. Then put all the artcles into the Trie. And last, use search engine to search the most relative articles with user's input.
+This Search Engine is designed for user to firstly grab title and main articles from the website. Then put all the articles into the Trie. And last, use search engine to search the most relative articles with user's input.
 
 ##
 
@@ -58,9 +58,9 @@ The main algorithm this project applied is linked-list based Trie.
         
   * private int size
   
-When Add an article to the Tria, first, use split(), separate all the words. Add words into Tria one by one. When adding the word, from the root, search the is there prefix string of adding word in it's children. if no, get the first charactor of the adding word and create a new Node with the value equal the charactor, then add this Node to it's children list; if yes, remove the prefix string from adding word, and do same thing with this child and the substring. when the input word become empty, then add articleId to it's articles. If articleId is in articles, then add the times of this articleId. Hence, to add all N words in artcle, and average word length is L, then it costs O(NM) to run.
+When Add an article to the Tria, first, use split(), separate all the words. Add words into Tria one by one. When adding the word, from the root, search the is there prefix string of adding word in it's children. if no, get the first charactor of the adding word and create a new Node with the value equal the charactor, then add this Node to it's children list; if yes, remove the prefix string from adding word, and do same thing with this child and the substring. when the input word become empty, then add articleId to it's articles. If articleId is in articles, then add the times of this articleId. Hence, to add all N words in artcle, and average word length is L, then it costs O(NL) to run.
 
-When searching the input, first use split(), separate all the words. Search words in Tria one by one. When searching the word, from the root, search the is there prefix string of adding word in it's children. if no, return false; if yes, do same thing with this child and the substring. If the input string becomes empty, return it's articles (articles can be null is this word didn' appear in any article). With input words number is N, and total Node number in Trie is M, the running time should be O(NlogM).
+When searching the input, first use split(), separate all the words. Search words in Trie one by one. When searching the word, from the root, search the is there prefix string of adding word in it's children. if no, return false; if yes, do same thing with this child and the substring. If the input string becomes empty, return it's articles (articles can be null is this word didn' appear in any article). With input words number is N, and total Node number in Trie is M, the running time should be O(NlogM).
 
 ##
 
